@@ -4,16 +4,18 @@ import java.util.Random;
 
 public class Main {
     public static void main(String[] args) {
-        Random dice = new Random();
+        Apples Time = new Apples();
+        System.out.println(Time.toMilitary());
+        System.out.println(Time.toString());
 
-        int freq[] = new int[1000]; //don't forget to use the new keywprd
+        Apples Time1 = new Apples(3,15,6);
+        System.out.println(Time1.toMilitary());
+        System.out.println(Time1.toString());
 
-
-        for (int i = 0; i< 1000; i++){
-
-        }
 
     }
+
+
 }
 
 
@@ -45,6 +47,16 @@ Introduced Multiple Classes
 -arrays you only have one data type in java unlike lists
 -array table
 -summing all elements in an array
+-creating an array that keeps tally
+-enhanced for loop, similar to for in python
+-arrays in methods
+-multidimensional arrays
+-variable length args ... means we don't know hoe many numbers, super important
+-creating time functionality
+-public, private, this | when you use this, think about this method
+-overloaded constructors, code constructors being versatile enough to handle different scenarios
+
+
 
 
 
