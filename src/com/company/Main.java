@@ -12,6 +12,7 @@ public class Main {
         System.out.println(Time1.toMilitary());
         System.out.println(Time1.toString());
 
+        ThirdClass sample = new ThirdClass(18,8,1999);
 
     }
 
@@ -55,7 +56,8 @@ Introduced Multiple Classes
 -creating time functionality
 -public, private, this | when you use this, think about this method
 -overloaded constructors, code constructors being versatile enough to handle different scenarios
-
+-toString, pretty much like __str__ in python
+-composition
 
 
 
