@@ -1,21 +1,17 @@
 package com.company;
-import java.util.Scanner;
-import java.util.Random;
 
+import javax.swing.JOptionPane;
+import javax.swing.JFrame;
 public class Main {
     public static void main(String[] args) {
-        Apples Time = new Apples();
-        System.out.println(Time.toMilitary());
-        System.out.println(Time.toString());
 
-        Apples Time1 = new Apples(3,15,6);
-        System.out.println(Time1.toMilitary());
-        System.out.println(Time1.toString());
 
-        ThirdClass sample = new ThirdClass(18,8,1999);
+        tuna Obinna = new tuna();
 
+        Obinna.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        Obinna.setSize(350,100);
+        Obinna.setVisible(true);
     }
-
 
 }
 
@@ -57,10 +53,19 @@ Introduced Multiple Classes
 -public, private, this | when you use this, think about this method
 -overloaded constructors, code constructors being versatile enough to handle different scenarios
 -toString, pretty much like __str__ in python
--composition
-
-
-
+-43*composition, a little complicated, referencing objects in other classes
+-enumeration, similar to how it works in python but still just a little weird
+-enumset, very similar to slicing
+-static, share a variable within class
+-enums, you can directly index enums using .values, interesting
+-final, you can never change it after you've defined it.
+-inheritance, helps to have a central parent version of a class that others can take if they like
+-extends keyword is super important in the process of inheritance
+-graphical user interfaces *star eyess*
+-started with using joption panes
+-tailoring your gui across windows and mac for a consistent feel :)
+-event handling, super detailed
+-polymorphism
 
 
 
